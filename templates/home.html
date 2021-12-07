@@ -39,11 +39,11 @@
          color: #d2d6da;
       }
     </style>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='stylesheets/style.css') }}" />
   </head>
   <body>
     <div>
-      <link href="./home.css" rel="stylesheet" />
+      <link href="{{ url_for('static', filename='stylesheets/home.css') }}"  rel="stylesheet" />
       <title>Chalk</title>
       <meta property="og:title" content="Chalk" />
       <div class="home-container">
@@ -52,7 +52,7 @@
             <div class="header-container">
               <img
                 alt="image"
-                src="public/playground_assets/chalk-200h.png"
+                src="{{ url_for('static', filename='public/playground_assets/chalk-200h.png') }}"
                 class="header-image"
               />
               <a href="/home.html" class="header-navlink large">
@@ -61,7 +61,7 @@
               <div class="header-container1"></div>
               <div class="header-container2">
                 <div class="header-container3">
-                  <a href="/home/user/CHALK/labeling-page.html" class="header-navlink1">
+                  <a href="{{ url_for('labeling') }}" class="header-navlink1">
                     <div class="primary-pink-button-container rootClassName">
                       <button
                         class="primary-pink-button-button button buttonSmall"
@@ -101,7 +101,7 @@
               </span>
               <div class="home-container2">
                 <div class="home-container3">
-                  <a href="/home/user/CHALK/labeling-page.html" class="home-navlink">
+                  <a href="{{ url_for('labeling') }}" class="home-navlink">
                     <div class="primary-pink-button-container rootClassName">
                       <button
                         class="primary-pink-button-button button buttonSmall"
@@ -120,7 +120,7 @@
               <div class="home-container4">
                 <img
                   alt="image"
-                  src="public/playground_assets/img-1500h.jpg"
+                  src="{{ url_for('static', filename='public/playground_assets/img-1500h.jpg') }}"
                   class="home-image"
                 />
               </div>
@@ -135,12 +135,12 @@
         <section class="home-testimonials">
           <img
             alt="image"
-            src="public/playground_assets/bottom.svg"
+            src="{{ url_for('static', filename='public/playground_assets/bottom.svg') }}"
             class="home-bottom-wave-image"
           />
           <img
             alt="image"
-            src="public/playground_assets/waves-white.svg"
+            src="{{ url_for('static', filename='public/playground_assets/waves-white.svg') }}"
             class="home-image2"
           />
         </section>
@@ -175,7 +175,7 @@
           </div>
           <img
             alt="image"
-            src="public/playground_assets/waves-white.svg"
+            src="{{ url_for('static', filename='public/playground_assets/waves-white.svg') }}"
             class="footer-image"
           />
         </footer>
