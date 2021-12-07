@@ -39,11 +39,11 @@
          color: #d2d6da;
       }
     </style>
-    <link rel="stylesheet" href="{{ url_for('static', filename= 'stylesheets/style.css') }}" />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <div>
-      <link href="{{ url_for('static', filename= 'stylesheets/labeling-page.css') }}" rel="stylesheet" />
+      <link href="./labeling-page.css" rel="stylesheet" />
       <title>Labeling Page - Chalk</title>
       <meta property="og:title" content="Labeling Page - Chalk" />
       <div class="labeling-page-container">
@@ -51,11 +51,11 @@
           <nav class="header-full-nav">
             <img
               alt="image"
-              src="{{ url_for('static', filename= 'public/playground_assets/chalk-200h.png') }}"
+              src="../public/playground_assets/chalk-200h.png"
               class="header-full-image"
             />
             <div class="header-full-container">
-              <a href="{{ url_for('index') }}" class="header-full-navlink large">
+              <a href="/home.html" class="header-full-navlink large">
                 Chalk : Civil Infrastructure Deterioration Auto Labeling Toolkit
               </a>
               <div class="header-full-container1">
@@ -71,8 +71,7 @@
         </div>
         <div class="labeling-page-container01"></div>
         <div class="labeling-page-container02">
-          <div class="labeling-page-container03">
-          </div>
+          <div class="labeling-page-container03"></div>
           <div class="labeling-page-container04">
             <div class="labeling-page-container05">
               <div class="labeling-page-container06">
@@ -83,7 +82,7 @@
                         <button class="labeling-page-button button">
                           <img
                             alt="image"
-                            src="{{ url_for('static', filename= 'public/playground_assets/pen-200h.png') }}" 
+                            src="public/playground_assets/pen-200h.png"
                             class="labeling-page-image"
                           />
                         </button>
@@ -93,7 +92,7 @@
                     <button class="labeling-page-button1 button">
                       <img
                         alt="image"
-                        src="{{ url_for('static', filename= 'public/playground_assets/bounding-box-200h.png') }}" 
+                        src="public/playground_assets/bounding-box-200h.png"
                         class="labeling-page-image1"
                       />
                     </button>
@@ -101,7 +100,7 @@
                     <button class="labeling-page-button2 button">
                       <img
                         alt="image"
-                        src="{{ url_for('static', filename='public/playground_assets/eraser-200h.png') }}" 
+                        src="public/playground_assets/eraser-200h.png"
                         class="labeling-page-image2"
                       />
                     </button>
@@ -111,7 +110,7 @@
                 <button class="labeling-page-button3 button">
                   <img
                     alt="image"
-                    src="{{ url_for('static', filename='public/playground_assets/zoom-200h.png') }}" 
+                    src="public/playground_assets/zoom-200h.png"
                     class="labeling-page-image3"
                   />
                 </button>
@@ -121,12 +120,21 @@
             <button class="labeling-page-button4 button">
               <img
                 alt="image"
-                src="{{ url_for('static', filename='public/playground_assets/zoom-out-200h.png') }}"
+                src="public/playground_assets/zoom-out-200h.png"
                 class="labeling-page-image4"
               />
             </button>
+            <div class="labeling-page-container15"></div>
+            <button class="labeling-page-button5 button">
+              <img
+                alt="image"
+                src="public/playground_assets/upload-200h.png"
+                class="labeling-page-image5"
+              />
+            </button>
+            <div class="labeling-page-container16"></div>
           </div>
-          <div class="labeling-page-container15"></div>
+          <div class="labeling-page-container17"></div>
         </div>
       </div>
     </div>
