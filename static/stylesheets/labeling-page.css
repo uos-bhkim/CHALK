@@ -109,7 +109,8 @@
   border: 2px dashed rgba(120, 120, 120, 0.4);
   height: 100%;
   display: flex;
-  align-items: flex-start;
+  align-self: center;
+  align-items: center;
   flex-direction: column;
 }
 .labeling-page-container04 {
@@ -261,6 +262,33 @@
   object-fit: cover;
 }
 .labeling-page-container15 {
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 23px;
+  display: flex;
+  align-items: flex-start;
+}
+.labeling-page-button5 {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-self: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.labeling-page-image5 {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+}
+.labeling-page-container16 {
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 21px;
+  display: flex;
+  align-items: flex-start;
+}
+.labeling-page-container17 {
   flex: 0 0 auto;
   width: 27px;
   height: 100%;
